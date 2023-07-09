@@ -46,7 +46,7 @@ function Signup() {
             <div className='mb-3'>
                 <label htmlFor="password"><strong>Password</strong></label>
                 <input type="password" placeholder='Enter Password' name='password' onChange={handleInput} className='form-control rounded-0'/>
-                {errors.password && <span className='text-danger'> {errors.password}</span>}
+                {errors.password && <span className='text-danger'> {errors.password} No special symbols allowed</span>}
             </div>
             <button type='submit' className='btn btn-success w-100 rounded-0'> Sign up</button>
             <p>You are agree to aour terms and policies</p>
