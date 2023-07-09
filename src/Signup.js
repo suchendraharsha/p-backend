@@ -21,7 +21,7 @@ function Signup() {
     const handleSubmit = (event) => {event.preventDefault();
         const err = Validation(values); setErrors(err);
         if(err.name === "" && err.email === "" && err.password === "") {
-            axios.post('http://localhost:8081/signup', values)
+            axios.post('https://treeplantationpujithcsp.onrender.com/signup', values)
             .then(res => {
                 navigate('/');
             })
