@@ -23,7 +23,7 @@ class Header extends Component {
         </div>
         <p className="title-logo">B-12</p>
         <div className="navbar-contents">
-          <Link to = "/home" className="nav-link">Home</Link>
+          <Link to = "/" className="nav-link">Home</Link>
           <Link to = "/project" className="nav-link">Project</Link>
           <Link to = "/about-us" className="nav-link">About Us</Link>
           <div className="dark-mode">
